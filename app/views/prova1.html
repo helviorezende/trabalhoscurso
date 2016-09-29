@@ -1,0 +1,33 @@
+<h1><p>Prova P1</p></h1>
+
+
+<div class="container">
+
+<div class="row secao">
+	<h1><p>SEÇÃO DE VOTAÇÃO</p></h1>
+</div>
+
+<div class="row candidato ">
+
+	<div class="candidatos col-xs-2"> <button ng-click = "alexandre()" id="alexandre" > <img src="images/alexandre.jpg" class="" ng-click="" width="100%" height="150px" display="block" />Alexandre - 40</button></div>
+	<div class="candidatos col-xs-2"><button ng-click = "cida()" id="cida" ><img  src="images/cida.jpg" class="" ng-click="" width="100%" height="170px" display="block" />Cida - 50</button></div>
+	<div class="candidatos col-xs-2"><button ng-click = "gilberto()" id="gilberto" ><img src="images/gilberto.jpg" class="" ng-click="" width="100%" height="170px" display="block" />Gilberto - 16</button></div>
+	<div class="candidatos col-xs-2"><button ng-click = "gilmar()" id="gilmar" ><img src="images/gilmar.jpg" class="" ng-click="" width="100%" height="170px" display="block" />Gilmar - 13</button></div>
+	<div class="candidatos col-xs-2"><button ng-click = "odelmo()" id="odelmo" ><img src="images/odelmo.jpg" class="" ng-click="" width="100%" height="170px" display="block" />Odelmo  11</button></div>
+	
+	<div class="quantidade col-xs-12">Total de votos : <input ng-model="total" type="number" disabled="true" align="center" maxlength="4"></div>
+
+</div>
+
+<div class="row total">
+	<div class="total col-xs-2"> <input ng-model="votosAlexandre" id="votosAlexandre" type="number" disabled="false" hidden="true" maxlength="4"></div>
+	<div class="total col-xs-2"><input ng-model="votosCida" id="votosCida" type="number" disabled="false" hidden="true" maxlength="4"></div>
+	<div class="total col-xs-2"><input ng-model="votosGilberto" id="votosGilberto" type="number" disabled="false" hidden="true" maxlength="4"></div>
+	<div class="total col-xs-2"><input ng-model="votosGilmar" id="votosGilmar" type="number" disabled="false" hidden="true" maxlength="4"></div>
+	<div class="total col-xs-2"><input ng-model="votosOdelmo" id="votosOdelmo" type="number" disabled="false" hidden="true" maxlength="4"></div>            
+
+	<div class="total col-xs-2"> <button ng-click="finalizar()" id="finalizar">Encerrar votação</button></div>
+</div>
+
+
+</div>

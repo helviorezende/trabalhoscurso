@@ -1,0 +1,99 @@
+
+**Novo Projeto**
+
+//Execute os comandos 
+
+git init
+
+git add .
+
+git commit -m "nome do comite"
+
+git remote add origin usuário@servidor:/caminho/para/o/repositório
+
+git push -u origin master
+
+
+----------------------------------------------------------------------------------
+
+**Enviar**
+
+
+git add *
+
+git commit -m "comentários das alterações"
+
+git push origin master
+
+
+----------------------------------------------------------------------------------
+
+
+**Baixar**
+
+//para atualizar seu repositório local com a mais nova versão, execute
+
+git pull
+
+----------------------------------------------------------------------------------
+
+**Branch**
+
+//crie um novo branch chamado "funcionalidade_x" e selecione-o usando
+
+git checkout -b funcionalidade_x
+
+
+//retorne para o master usando
+
+git checkout master
+
+
+//e remova o branch da seguinte forma
+
+git branch -d funcionalidade_x
+
+
+
+//um branch não está disponível a outros a menos 
+//que você envie o branch para seu repositório remoto
+
+git push origin <funcionalidade_x>
+
+------------------------------------------------------------------------------------
+
+**Merge**
+
+//na sua pasta de trabalho para obter e fazer merge (mesclar) alterações remotas.
+//para fazer merge de um outro branch ao seu branch ativo (ex. master), use
+
+git merge <branch>
+
+
+//antes de fazer o merge das alterações, você pode também pré-visualizá-as usando
+
+git diff <branch origem> <branch destino>
+
+
+
+------------------------------------------------------------------------------------
+
+**Clone**
+
+
+//crie uma cópia de trabalho em um repositório local executando o comando
+
+git clone /caminho/para/o/repositório
+
+
+
+//uando usar um servidor remoto, seu comando será
+
+git clone usuário@servidor:/caminho/para/o/repositório
+
+
+
+
+
+
+

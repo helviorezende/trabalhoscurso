@@ -1,0 +1,122 @@
+
+COMANDOS DO ECLIPSE
+
+***************************
+
+Completar código
+Ctrl + Space
+
+***************************
+Criar um novo arquivo
+Ctrl + N
+
+***************************
+
+Formatar código-fonte
+Ctrl + Shift + F
+
+***************************
+
+Organizar importações
+Ctrl + Shift + O
+
+***************************
+
+Renomear refatorando
+Alt + Shift + R
+
+***************************
+
+Fechar janela de edição
+Ctrl + W
+
+***************************
+
+Fechar todas as 
+janelas de edição
+Ctrl + Shift + W
+
+***************************
+
+Excluir linha de código
+Ctrl + D
+
+***************************
+
+Abrir código em tela cheia
+Ctrl + M
+
+***************************
+
+Mover linhas pelo 
+código-fonte
+Alt + Seta Up/Down
+
+***************************
+
+Corrigir código rapidamente
+Ctrl + 1
+
+***************************
+
+Abrir o código de um tipo
+Ctrl + Shift + T
+
+***************************
+
+Abrir o código de 
+um arquivo (recurso)
+Ctrl + Shift + R
+
+***************************
+
+Pesquisar e navegar 
+em arquivos abertos
+Ctrl + E
+
+***************************
+
+Navegar entre arquivos
+abertos
+Ctrl + F6
+
+***************************
+
+Executar uma classe
+Alt + Shift + X, J
+
+****************************
+
+Executar testes unitários
+Alt + Shift + X, T
+
+***************************
+
+Acesso rápido
+Ctrl + 3
+
+***************************
+
+Listar todos os atalhos 
+do Eclipse
+Ctrl + Shift + L
+
+**************************
+Alterar em massa
+
+Alt + shift + R
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

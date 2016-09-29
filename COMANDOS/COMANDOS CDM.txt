@@ -1,0 +1,32 @@
+
+Processador de comandos do Windows
+
+CD -> Entrar nas pastas
+
+CLS -> limpar tela
+
+DIR -> mostrar todo conteudo diretorio
+
+MKDIR -> criar pasta
+
+
+D:
+
+
+
+------------------------------------------------------
+**Verificar Volume**
+
+diskpart
+
+
+list volume 
+
+select volume nome Volume
+
+
+----------------------------------------------------------
+
+//Isso vai alterar as propriedades do drive USB para que ele saia do modo "Somente leitura".
+
+attributes disk clear readonly

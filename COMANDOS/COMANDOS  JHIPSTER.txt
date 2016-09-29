@@ -1,0 +1,20 @@
+
+***Jhipster****
+
+
+//Install JHipster
+
+npm install -g generator-jhipster
+
+
+//Execute JHipster e siga as instruções na tela
+
+yo jhipster
+
+
+
+
+
+//Modelar suas entidades com JBL Studio e gerá-los com
+
+yo jhipster:import-jdl yourJdlFile.jh

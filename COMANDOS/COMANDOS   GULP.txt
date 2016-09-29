@@ -1,0 +1,27 @@
+1°Instalar o NodeJS.
+
+
+2°Ir na pasta do projeto.
+
+
+3°Comandos que devem ser executados.
+
+	npm install gulp -g
+	npm install gulp --save-dev
+	npm install gulp-connect --save-dev 
+
+4°Comando para executar o projeto.
+
+	gulp
+
+
+
+
+
+
+
+
+---------------------------------------------
+
+gulp test
+

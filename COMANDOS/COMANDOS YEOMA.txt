@@ -1,0 +1,33 @@
+
+
+--------------------------------------------------------------
+Instalação Yeoma
+
+npm install -g yo npm
+
+
+npm install -g grunt-cli bower yo generator-karma generator-angular
+
+npm install jit-grunt --save-dev
+
+
+--------------------------------------------------------------
+
+Inicio projeto Angular
+
+yo angular nomeProjeto
+
+yo angular:route nomeRota
+
+yo angular:controller MyNewController
+
+yo angular:view user
+
+yo angular:service myService
+
+yo angular:decorator serviceName
+
+yo angular:filter nomeFilter
+
+
+bower install

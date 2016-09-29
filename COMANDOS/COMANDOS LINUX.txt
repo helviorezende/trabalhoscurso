@@ -1,0 +1,12 @@
+cd -> Entrar nas pastas
+
+clear -> limpar tela
+
+ls -> mostrar todo conteudo diretorio
+
+mkdir -> criar pasta
+
+rm -r nomePasta-> apagar pasta
+
+
+

@@ -1,0 +1,38 @@
+
+
+		<div class="container">
+
+		<div class="row titulo">
+<h1><p>A PORTA DOS DESESPERADOS</p></h1>
+		</div>
+		
+			<div class="row">
+				<div class="porta col-xs-4" ng-click="fazJogo('0')">
+					{{portas[0]}}
+				</div>
+				<div class="porta col-xs-4" ng-click="fazJogo('1')">
+					{{portas[1]}}
+				</div>
+				<div class="porta col-xs-4" ng-click="fazJogo('2')">
+					{{portas[2]}}
+				</div>
+			</div>
+
+			<div class="modal fade" data-backdrop="static" id="options" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+			  <div class="modal-dialog" role="document">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h4 class="modal-title" id="myModalLabel">Questão!</h4>
+			      </div>
+			      <div class="modal-body">
+			        Deseja Trocar de Porta?
+			      </div>
+			      <div class="modal-footer">
+			      	<button type="button" ng-click = "naoTroca()" class="btn btn-danger" data-dismiss="modal">Não trocar</button>
+			       <button type="button" ng-click = "troca()" class="btn btn-primary" data-dismiss="modal">Trocar</button>
+			      </div>
+			    </div>
+			  </div>
+
+			</div>
+		</div>
